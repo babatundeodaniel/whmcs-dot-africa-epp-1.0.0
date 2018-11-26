@@ -1,0 +1,5 @@
+v.0.1.x to v1.0.0:
+	- Support added for .web.za, .org.za and .net.za
+
+v0.1.0 to v0.1.1:
+	- Remove cronjob for modules/registrars/cozaepp/cozaeppsync.php, this is done by WHMCS automagically
