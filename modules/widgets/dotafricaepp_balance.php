@@ -36,7 +36,7 @@
 # Function to implement the cozaepp balance widget
 function widget_dotafricaepp_balance($vars) {
 	# Setup include dir
-	$include_path = ROOTDIR . '/modules/registrars/cozaepp';
+	$include_path = ROOTDIR . '/modules/registrars/dotafricaepp';
 	set_include_path($include_path . PATH_SEPARATOR . get_include_path());
 	# Include EPP stuff we need
 	require_once 'dotafricaepp.php';
@@ -45,7 +45,7 @@ function widget_dotafricaepp_balance($vars) {
 
 
 	# Grab module parameters
-	$params = getregistrarconfigoptions('cozaepp');
+	$params = getregistrarconfigoptions('dotafricaepp');
 
 	# Set widget contents
 	$title = "DotAfrica EPP Balance";
